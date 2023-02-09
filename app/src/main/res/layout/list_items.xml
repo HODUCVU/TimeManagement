@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10dp">
+
+        <EditText
+            android:id="@+id/edtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:ems="5"
+            android:hint="@string/time"
+            android:inputType="time"
+            android:minHeight="48dp"
+            android:background="@color/cardview_shadow_end_color"/>
+
+        <EditText
+            android:id="@+id/edtEvent"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:hint="@string/event"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize"
+            android:background="@color/cardview_shadow_end_color"/>
+        <Button
+            android:id="@+id/btnSaveItem"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="@string/andItem" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

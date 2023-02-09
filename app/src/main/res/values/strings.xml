@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quan Ly Thoi Gian</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Calender">Calender</string>
+    <string name="History">History</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="time">Time</string>
+    <string name="event">Event</string>
+    <string name="target">Target</string>
+    <string name="add">Add</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="andItem">+</string>
+    <string name="Clear">CLEAR</string>
+    <string name="Save">SAVE</string>
+    <string name="day">day</string>
+    <string name="delete">delete</string>
+    <string name="new_schedule">new</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/txtHistoryDay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:textSize="25sp"
+        android:textColor="@color/green"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteHistoryDay"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/icon_delete"
+        android:text=""/>
+</androidx.appcompat.widget.LinearLayoutCompat>

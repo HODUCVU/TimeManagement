@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Schedule"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="ClickSchedule"
+        android:text="@string/Schedule"
+        app:icon="@drawable/icon_schedule" />
+    <Button
+        android:id="@+id/Calendar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="ClickCalender"
+        android:text="@string/Calender"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:icon = "@drawable/icon_calender"
+        />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableEnd="@drawable/icon_calender"
+        android:onClick="ClickHistory"
+        android:text="@string/History"
+        app:icon="@drawable/icon_history" />
+</androidx.appcompat.widget.LinearLayoutCompat>
