@@ -1,3 +1,3 @@
 # TimeManagement
-You can schedule your plan today
+You can schedule your plan today,
 View past plans
